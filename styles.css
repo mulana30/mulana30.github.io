@@ -1,0 +1,266 @@
+body{
+    background-color: rgb(255, 255, 255);
+   
+}
+.name{
+    text-align: center;
+}
+.items{
+    margin-left: 20px;
+/*position: fixed;*/
+justify-content: center;
+justify-content: space-around;
+/*margin-left: 50px;*/
+display: flex;
+}
+.items nav{
+
+    border-style: solid;
+justify-content: center;
+justify-content: space-around;
+
+}
+.items nav:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-style: solid;
+    color: rgb(255, 253, 253);
+    border-color: black;
+
+}
+.all{
+    margin-top: 0px;
+    /*background-color: rgb(236, 30, 60);*/
+background-image: url("repair\ agin.jpg");
+background-size: cover;
+
+}
+.all b{
+    float: right;
+    margin-right: 420px;
+}
+.all em{
+    justify-content: center;
+    margin-left: 35%;
+    color: white;
+    border-radius: 30px;
+    font-size: 50px;
+}
+.all em:hover{
+background-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+}
+nav{
+   /* border-style: dotted;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;*/
+}
+.services{
+
+display: flex;
+
+justify-content: space-around;
+margin-top: 100px;
+
+}
+.services h2{
+
+margin-left: 70px;
+
+}
+
+.services:hover{
+/*background-color: rgb(190, 16, 45);*/
+stroke: blue;
+
+}
+.services article{
+    animation-name: style;
+    animation-duration: 8s;
+    animation-delay: 3s;
+    
+
+border-color: rgb(255, 255, 255);
+border-radius: 20px;
+justify-content: right;
+margin-right: 10px;
+
+height: 350px;
+}
+
+
+h2{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+@keyframes mulah{
+
+
+1% {background-color: rgb(179, 159, 253);}
+1% {background-color: rgb(224, 158, 158);}
+1% {background-color: rgb(9, 38, 117);}
+1% {background-color: rgb(149, 243, 137);}
+}
+@keyframes style{
+    1% {background-color: rgb(255, 246, 246);}
+    1% {background-color: rgb(116, 117, 192);}
+    1% {background-color: rgb(9, 38, 117);}
+    1% {background-color: rgb(255, 255, 255);} 
+}
+.services h2:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.laptop h2{
+
+/*border-style: solid;*/
+border-radius: 20px;
+width: 100px;
+justify-items: center;
+background-color: rgb(252, 252, 252);
+opacity: 1;
+}
+
+.comments{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.959);
+    animation-name: mulah ;
+    animation-duration :7s;
+    animation-delay: 3s;
+}
+
+.comments input{
+
+border-radius: 20px;
+height: 50px;width: 200px;
+margin-bottom: 10px;
+margin-top: 2px;
+background-color: rgb(255, 132, 132);
+
+}
+.comments img{
+    border-radius: 50px;
+    opacity: 1;
+}
+.comments img:hover{
+border-bottom-style: solid;
+border-color: rgb(255, 247, 247);
+
+}
+.comments b{
+    animation-name: mulah ;
+    animation-duration :7s;
+    animation-delay: 2s;
+}
+.acounts{
+display: flex;
+justify-content: center;
+
+}
+.acounts img{
+    margin-left: 40px;
+}
+.send{
+color: aliceblue;
+background-color: rgb(87, 116, 245);
+width: 200;height: 200;
+
+}
+.page-footer{
+
+height: 4rem;
+display: flex;
+text-align: center;
+justify-content: center;
+background: rgb(0, 0, 0);
+color: rgb(219, 132, 132);
+animation-name: mulah ;
+    animation-duration :7s;
+    animation-delay: 2s;
+}
+.page-footer p{
+margin-bottom: 0;
+
+
+}
+.footer-logo{
+
+color: rgb(65, 9, 129);
+
+}
+.page-footer img{
+    justify-content: left;
+   
+}
+.laptop:hover{
+border-top-style: ridge;
+border-bottom-style: ridge;
+color: rgb(39, 38, 38);
+
+}
+.p2{
+
+    background-color: rgb(245, 238, 239);
+color: rgb(32, 90, 141);
+
+}
+
+.p2 h1{
+    text-align: center;
+    
+}
+
+.location{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.location div{
+    margin-top: 20px;
+}
+.location div:hover{
+    border-bottom-style: ridge;
+    border-top-style: ridge;
+    background-color: blue;
+    opacity: 0.3;
+}
+.enter{
+    background-color: rgb(241, 30, 60);
+    margin-right: 80%;
+
+padding-top: 10px;
+padding-left: 3px;
+border-radius: 40px;
+padding-bottom: 3px;
+justify-content: space-around;
+}
+.enter input{
+    border-radius: 40px;
+}
+.enter input:hover{
+    background-color: rgb(255, 154, 154);
+    color: aliceblue;
+    border-radius: 50px;
+}
+.refresh:hover{
+    background-color: rgb(240, 240, 255);
+    border-radius: 50px;
+    content-visibility: 50%;
+}
+.stol{
+background-color: rgb(233, 214, 214);
+border-top-style: none;
+border-radius: 40px;
+border-top-width: 3px;
+shape-margin: 20px;
+
+
+}
+.greetings{
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
